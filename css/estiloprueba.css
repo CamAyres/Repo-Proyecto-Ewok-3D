@@ -1,0 +1,49 @@
+.nav .nav__lista {
+  list-style-type: none; }
+
+.nav .nav__item {
+  color: white; }
+
+.nav__link {
+  color: red;
+  /*el signo& es como nombrar al padre*/ }
+  .nav__link--activo {
+    background-color: green; }
+
+/*
+@import "colores.scss";
+
+$anchoContenedor:500px;
+
+div{
+    width: $anchoContenedor;
+    height: 600px;
+    background-color: burlywood;
+
+    h2{
+        color: $colorTitulo;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p{
+        color: green;
+        font-size: 30px;
+        font-family: monospace;
+    }
+
+    
+    h3{
+        color:$colorTitulo;
+    }
+    div {
+     background-color: hotpink;
+    img{
+    width: 100%;
+            }
+        
+        }
+
+
+}
+*/
