@@ -106,14 +106,24 @@ footer {
   display: flex;
   justify-content: space-evenly; }
 
-/*pagina contactos*/
+/*pagina CONTACTOS*/
 /*formulario*/
 .formulario {
   width: 500px;
   /*tengo que ponerlo a un costado, todo eso cuando lo organice on grids*/ }
 
-/*Pagina nosotros*/
-/*pagina tienda*/
+.linkRedes a:link {
+  color: black;
+  font-size: 17px; }
+
+.linkRedes a:visited {
+  color: black; }
+
+.linkRedes a:hover {
+  color: #329940; }
+
+/*Pagina NOSOTROS*/
+/*pagina TIENDA*/
 /*grid para tienda*/
 .conteTienda {
   display: grid;
@@ -141,6 +151,7 @@ footer {
   height: 450px;
   padding: 20px; }
 
+/*MOVIL*/
 /*media query max 600px movil*/
 @media only screen and (max-width: 600px) {
   /* tamaño nav mq movil*/
@@ -178,8 +189,14 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1px 5px;
-    grid-template-areas: "." "." "."; } }
+    grid-template-areas: "." "." "."; }
+  .imgCliente {
+    height: 500px;
+    width: 80%;
+    padding: 15px;
+    margin: 15px; } }
 
+/*TABLET*/
 @media only screen and (min-width: 600px) {
   .galeriaTablet {
     display: grid;
@@ -187,7 +204,18 @@ footer {
     grid-template-rows: 1fr 1fr;
     gap: 5px 5px;
     grid-auto-flow: row;
-    grid-template-areas: ". ." ". ."; } }
+    grid-template-areas: ". ." ". ."; }
+  .galeriaClienteTablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-template-areas: ". ." ". ." ". ."; }
+  .imgCliente {
+    height: 500px;
+    width: 370px;
+    padding: 20px;
+    margin: 20px; } }
 
 /*LAPTOP*/
 @media only screen and (min-width: 1200px) {

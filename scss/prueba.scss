@@ -166,7 +166,7 @@ justify-content: space-evenly;
 
 
 
-/*pagina contactos*/
+/*pagina CONTACTOS*/
 
 
 
@@ -181,15 +181,36 @@ justify-content: space-evenly;
 
 }
 
+//coolores hover de pag nosotros,links redes sociales
+
+
+.linkRedes{    
+    
+a:link{
+    color: black;
+    font-size: 17px;
+}
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: rgb(50, 153, 64);
+  
+}
+
+}
 
 
 
-/*Pagina nosotros*/
+
+
+/*Pagina NOSOTROS*/
 
 
 
 
-/*pagina tienda*/
+/*pagina TIENDA*/
 
 /*grid para tienda*/
 
@@ -260,7 +281,7 @@ justify-content: space-evenly;
 
 
 
-
+/*MOVIL*/
 /*media query max 600px movil*/
 
 @media only screen and (max-width: 600px){ 
@@ -309,7 +330,9 @@ justify-content: space-evenly;
         ".";
         padding: 5%;
     }
-  
+
+    
+
 
     // galeria tienda movil tamaño
 
@@ -324,6 +347,8 @@ justify-content: space-evenly;
         ".";
     }
   
+
+    //galeria clientes en pag nosotros
     .galeClienteMovil {
         display: grid; 
         grid-template-columns: 1fr; 
@@ -334,13 +359,20 @@ justify-content: space-evenly;
           "."
           "."; 
       }
-    // FALTA GALERIA DE CLIENTES EN NOSOTROS CON MEDIA QUIERE 
-
+      
+      .imgCliente{
+        height: 500px;
+        width: 80%;
+        padding: 15px;
+        margin: 15px;
+      }
 }
 
-
+/*TABLET*/
 @media only screen and (min-width:600px){
 
+    
+    
     //tamaño galeria tablet... toma el tamaño de imagenes grande 
     .galeriaTablet {
         display: grid;
@@ -354,7 +386,25 @@ justify-content: space-evenly;
 
       }
 
-
+      //tamaño galeria de clientrs en nosotros tamaño tablet
+.galeriaClienteTablet{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 5px 5px; 
+    grid-template-areas: 
+      ". ."
+      ". ."
+      ". ."; 
+        
+    }
+    
+    .imgCliente{
+        height: 500px;
+        width: 370px;
+        padding: 20px;
+        margin: 20px;
+    }
 
 
 }
@@ -392,7 +442,7 @@ justify-content: space-evenly;
            padding: 20px;
         }
         
-        
+        //tamaño galeria clientes en pag nosotros tamaño laptop
         .galeClienteLaptop {
             display: grid; 
             grid-template-columns: 1fr 1fr 1fr; 
