@@ -103,8 +103,8 @@ a:hover{
 
 
 .imgIndex{
-width:  450px;
-height: 570px;
+width:  100%;
+height: auto;
 
 }
 
@@ -324,7 +324,16 @@ justify-content: space-evenly;
         ".";
     }
   
-
+    .galeClienteMovil {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 1px 5px; 
+        grid-template-areas: 
+          "."
+          "."
+          "."; 
+      }
     // FALTA GALERIA DE CLIENTES EN NOSOTROS CON MEDIA QUIERE 
 
 }
@@ -342,7 +351,11 @@ justify-content: space-evenly;
         grid-template-areas:
           ". ."
           ". .";
+
       }
+
+
+
 
 }
 
@@ -367,6 +380,10 @@ justify-content: space-evenly;
          }
          
         
+         
+
+
+
           
         //tamaño de imagenes tamaño grande 
         .imgGaleria{
@@ -376,6 +393,28 @@ justify-content: space-evenly;
         }
         
         
+        .galeClienteLaptop {
+            display: grid; 
+            grid-template-columns: 1fr 1fr 1fr; 
+            grid-template-rows: 1fr 1fr 1fr; 
+            gap: 1px 5px; 
+            grid-template-areas: 
+              ". . ."
+              ". . ."
+              ". . ."; 
+           
+          }
+
+          
+          .imgCliente{
+              height: 350px;
+              width: 300px;
+              padding: 20px;
+              margin: 20px;
+          }
+
+          
+
 }
 
     
