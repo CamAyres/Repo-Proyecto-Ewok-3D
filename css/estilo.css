@@ -186,7 +186,8 @@ footer {
     grid-template-areas: "." "."; }
   .imgGaleMovil {
     width: 80%;
-    height: 500px; }
+    height: 450px;
+    padding: 15%; }
   .galeClienteMovil {
     display: grid;
     grid-template-columns: 1fr;
