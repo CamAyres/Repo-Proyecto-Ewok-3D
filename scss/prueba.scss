@@ -175,7 +175,7 @@ justify-content: space-evenly;
 
 
 .formulario{
-  width: 500px;
+  width: 80%;
 
   /*tengo que ponerlo a un costado, todo eso cuando lo organice on grids*/
 
@@ -234,9 +234,16 @@ a:hover{
       padding: 15px;
   }
 
+ .fondoPrecio{
+    background-color:rgb(153, 152, 152) ; 
+  
+  }
+  .pieFotosTienda{
+      text-align: center;
+      padding-bottom: 10px;
+      font-weight: bolder;
 
-
-
+      }
 
 
 /*pagina galeria*/

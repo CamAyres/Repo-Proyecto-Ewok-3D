@@ -109,7 +109,7 @@ footer {
 /*pagina CONTACTOS*/
 /*formulario*/
 .formulario {
-  width: 500px;
+  width: 80%;
   /*tengo que ponerlo a un costado, todo eso cuando lo organice on grids*/ }
 
 .linkRedes a:link {
@@ -136,6 +136,14 @@ footer {
   width: 90%;
   height: 450px;
   padding: 15px; }
+
+.fondoPrecio {
+  background-color: #999898; }
+
+.pieFotosTienda {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bolder; }
 
 /*pagina galeria*/
 .fotoCont {
